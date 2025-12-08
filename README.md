@@ -1,63 +1,45 @@
-# Dharani Aningi's Portfolio
+# MANASWINI PISIPATI's Portfolio
 
-Welcome to my personal portfolio! I’m Dharani Aningi — a Data Analyst and Business Analyst with 6+ years of experience in delivering data-driven insights and scalable solutions across healthcare, finance, and tech domains.
+Welcome to my personal portfolio! I’m Manaswini Pisipati — a Data Analyst and Business Analyst candidate with 5+ years of experience in Oracle ERP, data visualization, process automation, and translating business requirements into actionable insights.
 
-🔗 **Live Site**: [dharanianingi-portfolio](https://dharani2805.github.io/dharanianingi-portfolio)  
-📄 **Resume**: [Resume_DharaniAningi.pdf](https://dharani2805.github.io/dharanianingi-portfolio/Resume_DharaniAningi.pdf)
-
----
+🔗 Live Site: [Will be added after deployment]
+📄 Resume: AltaCV_Template (19).pdf
 
 ## 👩‍💻 About Me
 
-- **Current Role**: Data Analyst II at Mark Infotech Inc, optimizing fraud detection workflows and leading dashboard development using Tableau.
-- **Past Experience**: Senior Business Analyst at Accenture, focused on DevOps automation, dashboarding, and healthcare analytics.
-- **Education**:
-  - M.S. in Data Analytics – San Jose State University
-  - B.Tech in Computer Science – GITAM University
+* **Professional Summary:** M.S. in Applied Data Science for Business graduate actively seeking Data Analyst and Business Analyst roles to leverage my skills in data visualization and business analytics. Five+ years of experience delivering data-driven insights and scalable solutions, specializing in Oracle ERP R12.1.3 (PO, INV), process optimization, and dashboard development using Power BI.
+* **Experience Snapshot:** Five years of experience delivering data-driven insights and scalable solutions, focused on Oracle ERP, process automation, and dashboard development.
 
----
+## 🎓 Education
+
+* **M.S. in Applied Data Science for Business** – Portland State University (Expected Aug 2025, GPA: 3.7/4)
+* **B.Tech. in Computer Science** – GITAM University (May 2017)
 
 ## 🔧 Technical Skills
 
-- **Languages & Tools**: Python, SQL, R, Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch
-- **BI & Platforms**: Tableau, Power BI, Looker, Alteryx, Salesforce, Jenkins, Jira, GCP, AWS, Azure
-- **Other**: Agile/Scrum, Change Management, ServiceNow, Oracle ERP
-
----
+| Category | Skills |
+| :--- | :--- |
+| **Programming** | Python, R, SQL, JavaScript, HTML, C++ |
+| **Data Science** | Pandas, NumPy, Scikit-learn, NLP, Recommendation Systems, Generative AI, Clustering (K-Means) |
+| **BI & Viz** | Tableau, Power BI, Matplotlib, Seaborn, Dashboarding, DAX |
+| **Tech & ERP** | Oracle ERP R12.1.3 (PO, INV), Jira, Confluence, Git, Visual Studio, Hadoop |
+| **Process** | Agile/Scrum, ETL, Data Wrangling, A/B Testing, RCA |
 
 ## 🧠 Projects
 
-| Project                         | Description                                                                                              | Links                                                                   |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **LLM Medical Knowledge Graph** | Built a real-time AI platform using LLMs (GPT-4, Mistral), RAG & Neo4j to improve decision-making by 30% | [Graph RAG](https://github.com/Dharani2805/Graph_RAG)                   |
-| **Cyberbullying Classifier**    | Used BERT, GRU, and LSTM for text classification, achieving 97% accuracy                                 | [Sentiment Analysis](https://github.com/Dharani2805/Sentiment_Analysis) |
-| **SF Fire Dept Analytics**      | Analyzed 6M+ emergency records using AWS and Tableau, improving response times by 20%                    | [Big Data Project](https://github.com/Dharani2805/BigDataProject_228)   |
+*Note: The live site will automatically fetch your pinned GitHub projects. These are the key projects from your resume.*
 
----
-
-## 📜 Certifications
-
-- SAFe® 6.0 Product Owner & Product Manager
-- Microsoft Certified: Career Essentials in Data Analysis
-- Lean Six Sigma (Green Belt & Foundations)
-
----
-
-## 🏆 Honors
-
-- **IDC Pinnacle Award**, Apr 2022
-- **Star of the Month**, Nov & Dec 2021
-
----
+| Project | Description |
+| :--- | :--- |
+| **Birmingham Housing Market Model** | Built a logistic regression model to identify rent-burdened applicants at high default risk; integrated data from Census, ACRE, Eviction Lab, and OneApp. |
+| **Pharmacy Analytics Dashboard Cigna** | Visualized drug cost trends and supplier behavior to improve rebate strategies, reducing monthly reporting time by 50%. |
+| **Hospital Resource Optimization** | Clustered patient demographics to optimize triage and wait-time prioritization, applying PCA and reward modeling to simulate a 20% drop in ER wait times. |
+| **Mall Customer Segmentation** | Performed customer segmentation using clustering to guide marketing strategy and identified 3 high-potential customer segments. |
 
 ## 📬 Contact
 
-- **Email**: dharani.aningi@gmail.com
-- **LinkedIn**: [linkedin.com/in/dharanianingi](https://www.linkedin.com/in/dharanianingi/)
-- **GitHub**: [github.com/Dharani2805](https://github.com/Dharani2805)
-
----
+Email: **[INSERT YOUR EMAIL ADDRESS HERE]**
+LinkedIn: **[INSERT YOUR LINKEDIN PROFILE URL HERE]**
+GitHub: github.com/manasp20
 
 Thanks for visiting!
-
----
