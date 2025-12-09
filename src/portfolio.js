@@ -103,6 +103,24 @@ const workExperiences = {
   experience: []
 };
 
+// Your Open Source Section to View Your Github Pinned Projects
+const openSource = {
+    showGithubProfile: "true", 
+    display: false // Set to true if you want to display the section
+};
+
+// Some big projects you have worked on
+const bigProjects = {
+    display: false, // Set to true if you want to display the section
+    projects: []
+};
+
+// Achievement Section
+const achievementSection = {
+    display: false, // Set to true if you want to display the section
+    achievementsCards: []
+};
+
 // --- CONTACT INFO ---
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
