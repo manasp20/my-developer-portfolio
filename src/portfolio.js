@@ -1,6 +1,12 @@
 // Add this line
 export const isHireable = true;
 
+// Add this line
+export const contactInfo = {
+  email: "manaswinipisipati95@gmail.com",
+  phone: "+91 98765 43210" // You can change this to your actual number or leave a placeholder
+};
+
 const portfolioData = {
   // --- ABOUT SECTION ---
   name: "Manaswini Pisipati",
