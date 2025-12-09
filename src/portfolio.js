@@ -5,7 +5,8 @@ import splashAnimation from "./assets/lottie/splashAnimation";
 
 // --- NECESSARY EXPORTS (To fix the compilation errors) ---
 // These are required by the template's components to compile successfully
-export const isHireable = true; 
+//export
+const isHireable = true; 
 //export const workExperiences = { display: false }; // Set to false since you don't have this data structure yet
 //export const bigProjects = { display: false }; // Set to false to prevent errors
 //export const achievementSection = { display: false }; // Set to false to prevent errors
