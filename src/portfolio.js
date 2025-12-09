@@ -1,49 +1,122 @@
-// Add this line
-export const isHireable = true;
+/* Change this file to get your personal Portfolio */
 
-// Add this line
-export const contactInfo = {
-  email: "manaswinipisipati95@gmail.com",
-  phone: "+91 98765 43210" // You can change this to your actual number or leave a placeholder
+import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; 
+
+// --- NECESSARY EXPORTS (To fix the compilation errors) ---
+// These are required by the template's components to compile successfully
+export const isHireable = true; 
+export const workExperiences = { display: false }; // Set to false since you don't have this data structure yet
+export const bigProjects = { display: false }; // Set to false to prevent errors
+export const achievementSection = { display: false }; // Set to false to prevent errors
+export const techStack = { display: false }; // Set to false to prevent errors
+
+
+// --- SPLASH SCREEN ---
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 
 };
 
-const portfolioData = {
-  // --- ABOUT SECTION ---
-  name: "Manaswini Pisipati",
-  bio: "M.S. in Applied Data Science for Business graduate actively seeking Data Analyst and Business Analyst roles to leverage my skills in data visualization and business analytics. Five+ years of experience delivering data-driven insights and scalable solutions, specializing in Oracle ERP R12.1.3 (PO, INV), process optimization, and dashboard development using Power BI.",
+// --- SUMMARY AND GREETING SECTION ---
+const greeting = {
+  username: "Manaswini Pisipati",
+  title: "Hi All, I'm Manaswini Pisipati",
+  subTitle: emoji(
+    "M.S. in Applied Data Science for Business graduate actively seeking Data Analyst and Business Analyst roles to leverage my skills in data visualization and business analytics. Five+ years of experience delivering data-driven insights and scalable solutions, specializing in Oracle ERP R12.1.3 (PO, INV), process optimization, and dashboard development using Power BI."
+  ),
+  resumeLink: "AltaCV_Template (19).pdf", // Placeholder: Change this to your PDF's name in the public folder
+  displayGreeting: true 
+};
 
-  // --- CONTACT SECTION ---
-  email: "manaswinipisipati95@gmail.com",
-  linkedin: "www.linkedin.com/in/manaswinisp",
-  github: "github.com/manasp20",
+// --- SOCIAL MEDIA LINKS ---
+const socialMediaLinks = {
+  github: "https://github.com/manasp20",
+  linkedin: "https://www.linkedin.com/in/manaswinisp",
+  gmail: "manaswinipisipati95@gmail.com",
+  display: true 
+};
 
-  // --- SKILLS SECTION ---
+// --- SKILLS SECTION ---
+const skillsSection = {
+  title: "What I Do",
+  subTitle:
+    "Data Analyst and Business Analyst candidate with 5+ years of experience in Oracle ERP, data visualization, and process automation.",
   skills: [
-    "Python", "R", "SQL", "JavaScript", "HTML", "C++",
-    "Pandas", "NumPy", "Scikit-learn", "NLP", "Clustering (K-Means)",
-    "Tableau", "Power BI", "DAX", "Dashboarding",
-    "Oracle ERP R12.1.3", "Jira", "Confluence", "Git", "Agile/Scrum"
+    emoji(
+      "⚡ Translating complex business requirements into actionable insights and scalable data solutions"
+    ),
+    emoji(
+      "⚡ Expertise in Oracle ERP R12.1.3 (PO, INV) for system analysis and process optimization"
+    ),
+    emoji(
+      "⚡ Developing interactive dashboards using Tableau and Power BI to visualize key performance indicators"
+    ),
+    emoji(
+      "⚡ Building data models, performing clustering (K-Means), and leveraging NLP/Generative AI concepts"
+    )
   ],
+  softwareSkills: [
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "R", fontAwesomeClassname: "fas fa-chart-line"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-bar"},
+    {skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-pie"},
+    {skillName: "Oracle ERP", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "Jira/Confluence", fontAwesomeClassname: "fab fa-jira"},
+    {skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-brain"}
+  ],
+  display: true
+};
 
-  // --- EDUCATION SECTION ---
-  education: [
+// --- EDUCATION SECTION ---
+const educationInfo = {
+  display: true,
+  schools: [
     {
-      degree: "M.S. in Applied Data Science for Business",
-      school: "Portland State University",
-      status: "Expected Aug 2025, GPA: 3.7/4"
+      schoolName: "Portland State University",
+      // logo: require("./assets/images/PSULogo.png"), // You will need to add a PSU logo image
+      subHeader: "M.S. in Applied Data Science for Business",
+      duration: "Expected Aug 2025, GPA: 3.7/4",
+      desc: "Relevant Coursework in Data Science, Visualization, Business Analytics, and Machine Learning."
     },
     {
-      degree: "B.Tech. in Computer Science",
-      school: "GITAM University",
-      status: "May 2017"
+      schoolName: "GITAM University",
+      // logo: require("./assets/images/gitamLogo.png"), // Keep this logo if it's already in the assets folder
+      subHeader: "B.Tech. in Computer Science",
+      duration: "May 2017",
+      desc: "Core Computer Science curriculum."
     }
-  ],
-
-  // --- PROJECTS SECTION (For Manual Entry if needed) ---
-  projects: [
-    { title: "Birmingham Housing Market Model", description: "Built a logistic regression model to identify rent-burdened applicants at high default risk..." },
-    { title: "Pharmacy Analytics Dashboard Cigna", description: "Visualized drug cost trends and supplier behavior to improve rebate strategies..." }
   ]
 };
 
-export default portfolioData;
+// --- CONTACT INFO ---
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle: emoji("Feel free to reach out for opportunities!"),
+  number: "Your Phone Number Here", // Update with your actual number
+  email_address: "manaswinipisipati95@gmail.com"
+};
+
+const illustration = { animated: true }; // Needed for export
+const resumeSection = { display: true }; // Needed for export
+
+
+export {
+  illustration,
+  greeting,
+  socialMediaLinks,
+  splashScreen,
+  skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  contactInfo,
+  isHireable,
+  resumeSection
+};
