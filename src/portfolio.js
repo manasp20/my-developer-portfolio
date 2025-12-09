@@ -1,3 +1,6 @@
+// Add this line
+export const isHireable = true;
+
 const portfolioData = {
   // --- ABOUT SECTION ---
   name: "Manaswini Pisipati",
