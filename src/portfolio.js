@@ -90,6 +90,11 @@ const educationInfo = {
       desc: "Core Computer Science curriculum."
     }
   ]
+};// Your top 3 proficient stacks/tech experience
+const techStack = {
+  viewSkillBars: false, // Set to true if you want to use the skill bars
+  displayCodersrank: false,
+  display: false // Set this to false to hide the section until you fill it out
 };
 
 // --- CONTACT INFO ---
