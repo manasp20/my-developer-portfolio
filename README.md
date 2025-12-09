@@ -38,8 +38,8 @@ Welcome to my personal portfolio! I’m Manaswini Pisipati — a Data Analyst an
 
 ## 📬 Contact
 
-Email: **[INSERT YOUR EMAIL ADDRESS HERE]**
-LinkedIn: **[INSERT YOUR LINKEDIN PROFILE URL HERE]**
+Email: **manaswinipisipati95@gmail.com**
+LinkedIn: **www.linkedin.com/in/manaswinisp**
 GitHub: github.com/manasp20
 
 Thanks for visiting!
