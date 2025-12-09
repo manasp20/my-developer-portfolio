@@ -97,6 +97,12 @@ const techStack = {
   display: false // Set this to false to hide the section until you fill it out
 };
 
+// Work experience section
+const workExperiences = {
+  display: false, // Set this to true if you want to display the section
+  experience: []
+};
+
 // --- CONTACT INFO ---
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
