@@ -125,7 +125,7 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: emoji("Feel free to reach out for opportunities!"),
-  number: "Your Phone Number Here", // Update with your actual number
+  number: "+1 971 329 545", // Update with your actual number
   email_address: "manaswinipisipati95@gmail.com"
 };
 
