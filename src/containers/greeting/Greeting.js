@@ -42,9 +42,9 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    // THIS IS THE FIXED LINE: It now uses the variable from portfolio.js
+                    // FIXED: Using the variable for the link source
                     href={`${process.env.PUBLIC_URL}/${greeting.resumeLink}`}
-                    // THIS IS THE FIXED LINE: It now uses the variable from portfolio.js
+                    // FIXED: Using the variable for the download filename
                     download={greeting.resumeLink}
                     className="download-link-button"
                   >
