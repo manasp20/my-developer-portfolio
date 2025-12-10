@@ -42,10 +42,10 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    // FIXED: Using the variable for the link source
-                    href={`${process.env.PUBLIC_URL}/${greeting.resumeLink}`}
-                    // FIXED: Using the variable for the download filename
-                    download={greeting.resumeLink}
+                    // FINAL FIX: Hard-code to simplest name (resume.pdf)
+                    href={`${process.env.PUBLIC_URL}/resume.pdf`} 
+                    // FINAL FIX: Hard-code to simplest name (resume.pdf)
+                    download="resume.pdf" 
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />

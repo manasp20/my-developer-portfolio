@@ -26,7 +26,7 @@ const greeting = {
   subTitle: emoji(
     "M.S. in Applied Data Science for Business graduate actively seeking Data Analyst and Business Analyst roles to leverage my skills in data visualization and business analytics. Five+ years of experience delivering data-driven insights and scalable solutions, specializing in Oracle ERP R12.1.3 (PO, INV), process optimization, and dashboard development using Power BI."
   ),
-  resumeLink: "manaswini-resume.pdf", // Placeholder: Change this to your PDF's name in the public folder
+  resumeLink: "resume.pdf", // Placeholder: Change this to your PDF's name in the public folder
   displayGreeting: true 
 };
 
