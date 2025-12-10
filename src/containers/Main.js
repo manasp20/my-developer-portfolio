@@ -16,34 +16,35 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
-// Resume Section Component
+// Resume Section Component (This is the component you need to find and replace)
 const ResumeSection = () => {
-  return (
-    <section id="resume" className="resume-section">
-      <div className="container">
-        <div className="resume-container">
-          <h1 className="resume-heading">Resume</h1>
-          <p className="resume-subtitle">
-            Download my resume to learn more about my experience and skills.
-          </p>
-          <div className="resume-download">
-            <a
-              // FIXED: Hard-coding your filename for the link
-              href={`${process.env.PUBLIC_URL}/manaswini-resume.pdf`}
-              // FIXED: Hard-coding your filename for the download name
-              download="manaswini-resume.pdf"
-              className="resume-download-link"
-            >
-              <button className="resume-btn">
-                DOWNLOAD MY RESUME
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return (
+    <section id="resume" className="resume-section">
+      <div className="container">
+        <div className="resume-container">
+          <h1 className="resume-heading">Resume</h1>
+          <p className="resume-subtitle">
+            Download my resume to learn more about my experience and skills.
+          </p>
+          <div className="resume-download">
+            <a
+              // FINAL FIX: Using the simplified file name
+              href={`${process.env.PUBLIC_URL}/resume.pdf`} 
+              // FINAL FIX: Using the simplified file name
+              download="resume.pdf" 
+              className="resume-download-link"
+            >
+              <button className="resume-btn">
+                DOWNLOAD MY RESUME
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
+// ... rest of the file ...
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
