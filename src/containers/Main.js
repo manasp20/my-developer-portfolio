@@ -28,8 +28,10 @@ const ResumeSection = () => {
           </p>
           <div className="resume-download">
             <a
-              href={`${process.env.PUBLIC_URL}/Resume_DharaniAningi.pdf`}
-              download="Dharani_Aningi_Resume.pdf"
+              // FIXED: Hard-coding your filename for the link
+              href={`${process.env.PUBLIC_URL}/manaswini-resume.pdf`}
+              // FIXED: Hard-coding your filename for the download name
+              download="manaswini-resume.pdf"
               className="resume-download-link"
             >
               <button className="resume-btn">
