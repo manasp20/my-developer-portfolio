@@ -1,9 +1,12 @@
 {
   "files": {
     "main.css": "/my-developer-portfolio/static/css/main.6500c004.css",
-    "main.js": "/my-developer-portfolio/static/js/main.ff073ecd.js",
+    "main.js": "/my-developer-portfolio/static/js/main.45fa6e96.js",
     "static/css/769.b3cbb36b.chunk.css": "/my-developer-portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.88165ab4.chunk.js": "/my-developer-portfolio/static/js/769.88165ab4.chunk.js",
+    "static/media/graphRagLogo.png": "/my-developer-portfolio/static/media/graphRagLogo.56fc988490c2b3db6fdd.png",
+    "static/media/fireDeptLogo.png": "/my-developer-portfolio/static/media/fireDeptLogo.b8fd3bcea26754d4e329.png",
+    "static/media/sentimentAnalysisLogo.png": "/my-developer-portfolio/static/media/sentimentAnalysisLogo.25f55086f0d489b61f07.png",
     "static/media/Montserrat-Regular.ttf": "/my-developer-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/my-developer-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/accentureLogo.png": "/my-developer-portfolio/static/media/accentureLogo.932450b48b870bbcd0e9.png",
@@ -13,12 +16,12 @@
     "static/media/skill.svg": "/my-developer-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/my-developer-portfolio/index.html",
     "main.6500c004.css.map": "/my-developer-portfolio/static/css/main.6500c004.css.map",
-    "main.ff073ecd.js.map": "/my-developer-portfolio/static/js/main.ff073ecd.js.map",
+    "main.45fa6e96.js.map": "/my-developer-portfolio/static/js/main.45fa6e96.js.map",
     "769.b3cbb36b.chunk.css.map": "/my-developer-portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.88165ab4.chunk.js.map": "/my-developer-portfolio/static/js/769.88165ab4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6500c004.css",
-    "static/js/main.ff073ecd.js"
+    "static/js/main.45fa6e96.js"
   ]
 }
