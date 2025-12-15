@@ -90,10 +90,7 @@ const educationInfo = {
       desc: "Core Computer Science curriculum."
     }
   ]
-};
-
-
-// Your top 3 proficient stacks/tech experience
+};// Your top 3 proficient stacks/tech experience
 const techStack = {
   viewSkillBars: false, // Set to true if you want to use the skill bars
   displayCodersrank: false,
@@ -102,8 +99,19 @@ const techStack = {
 
 // Work experience section
 const workExperiences = {
-  display: false, // Set this to true if you want to display the section
-  experience: []
+  display: true, // Set this to true if you want to display the section
+  experience: [{
+      role: "Data Analyst II",
+      company: "Mark Infotech Inc",
+      companylogo: require("./assets/images/markinfotechLogo.png"), // Replace with actual logo
+      date: "Aug 2024 – Present",
+      desc: "Optimized fraud detection workflows, delivered interactive Tableau dashboards, and collaborated cross-functionally to define KPIs and drive business decisions.",
+      descBullets: [
+        "Automated processes using SQL and Excel, cutting manual efforts by 40%",
+        "Created 25+ dashboards improving CRM and data warehouse workflows by 30%",
+        "Boosted decision-making by 35% via effective stakeholder collaboration"
+      ]
+    }]
 };
 
 // Your Open Source Section to View Your Github Pinned Projects
