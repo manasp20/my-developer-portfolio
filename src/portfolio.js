@@ -92,46 +92,7 @@ const educationInfo = {
   ]
 };
 
-// --- PROJECTS SECTION (INSERT THIS CODE BLOCK) ---
-const projects = [
-    // 1. YOUR NEW CAPSTONE PROJECT - Fully Defined and Linked
-    {
-        name: "Birmingham Housing Market Model (Capstone)",
-        description: [
-            "Engineered a **Logistic Regression Model (Python/Scikit-learn)** to predict tenant default risk based on financial indicators (Rent-to-Income, Credit Score), improving applicant risk assessment.",
-            "Integrated and cleaned data from four complex sources, including Census, Eviction Lab, and ACRE economic data, with internal OneApp sales logs for **robust feature engineering**.",
-            "Quantified localized market risk by identifying that **42% of renters were rent-burdened** and pinpointing key Birmingham ZIP codes with the highest predicted default rates (~7.2%).",
-            "Delivered visualization reports (**Matplotlib/Seaborn**) and strategic policy recommendations to stakeholders, proving that **rent burden > 30%** was the primary driver of default."
-        ],
-        tags: ["Python", "Logistic Regression", "Scikit-learn", "Data Wrangling", "Data Visualization", "Risk Analysis"],
-        // *** YOUR CORRECT GITHUB LINK ***
-        github: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market", 
-        link: "", 
-    },
-    // 2. PROJECT 2 (Placeholder - Change the link later)
-    {
-        name: "Inventory Demand Forecasting",
-        description: [
-            "Built a Time Series Model (ARIMA/Prophet) to forecast product demand for a major e-commerce retailer, reducing inventory surplus by 15%.",
-            "Conducted comprehensive Exploratory Data Analysis (EDA) on transactional data to identify seasonality and trend components.",
-        ],
-        tags: ["Python", "Time Series", "ARIMA", "Prophet", "Tableau", "Forecasting"],
-        github: "#", // <-- REPLACE THIS LATER WITH YOUR PROJECT 2 GITHUB LINK
-        link: "",
-    },
-    // 3. PROJECT 3 (Placeholder - Change the link later)
-    {
-        name: "Healthcare Claims Clustering",
-        description: [
-            "Applied K-Means Clustering in Python to segment patient claim data, revealing 5 distinct fraud patterns.",
-            "Processed and cleaned over 500,000 records, engineering features like Claim Frequency and Provider Network Density.",
-        ],
-        tags: ["Python", "K-Means", "Clustering", "Fraud Detection", "Pandas", "Healthcare"],
-        github: "#", // <-- REPLACE THIS LATER WITH YOUR PROJECT 3 GITHUB LINK
-        link: "", 
-    },
-];
-// --- END PROJECTS SECTION INSERT ---
+
 
 // Your top 3 proficient stacks/tech experience
 const techStack = {
