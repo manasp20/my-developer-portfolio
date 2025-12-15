@@ -149,7 +149,7 @@ const bigProjects = {
           url: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market"
         }]
     },
-    {{
+    {
     projectName: "Healthcare Operational & Resource Optimization",
     projectDesc:
       "Applied advanced analytics to optimize healthcare operations, covering both patient flow and financial efficiency. Built a clustering model (PCA, Reward Modeling) to improve hospital triage/wait times (simulated 20% drop in ER wait times) and developed a Power BI dashboard to visualize drug cost trends, reducing monthly rebate reporting time by 50% via reusable ETL logic.",
@@ -160,8 +160,6 @@ const bigProjects = {
         }
     ]
 },
-      footerLink: []
-    },
     {
       projectName: "Mall Customer Segmentation Analysis",
       projectDesc:
