@@ -2,8 +2,8 @@
 
 Welcome to my personal portfolio! I’m Manaswini Pisipati — a Data Analyst and Business Analyst candidate with 5+ years of experience in Oracle ERP, data visualization, process automation, and translating business requirements into actionable insights.
 
-🔗 Live Site: https://manasp20.github.io/my-developer-portfolio
-📄 Resume: resume (14).pdf
+🔗 **Live Site:** [Manaswini_portfolio](https://manasp20.github.io/my-developer-portfolio)
+📄 **Resume:** [Manaswini_resume](resume (14).pdf)
 
 ### 👩‍💻 About Me
 
@@ -53,7 +53,7 @@ Welcome to my personal portfolio! I’m Manaswini Pisipati — a Data Analyst an
 ### 📬 Contact
 
 Email: manaswinipisipati95@gmail.com
-LinkedIn: linkedin.com/in/manaswinisp
-GitHub: github.com/manasp20
+LinkedIn: [linkedin.com/in/manaswinisp](https://www.linkedin.com/in/manaswinisp)
+GitHub: [github.com/manasp20](https://github.com/manasp20)
 
 Thanks for visiting!
