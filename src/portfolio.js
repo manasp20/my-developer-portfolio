@@ -144,7 +144,10 @@ const bigProjects = {
       projectName: "Birmingham Housing Market Model",
       projectDesc:
         "Built a logistic regression model to identify rent-burdened applicants at high default risk. Integrated data from Census, ACRE, Eviction Lab, and OneApp internal sales logs. Performed various visualization using custom visuals.",
-      footerLink: []
+      footerLink: [{
+          name: "View Project",
+          url: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market"
+        }]
     },
     {
       projectName: "Pharmacy Analytics Dashboard - Cigna",
