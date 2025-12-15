@@ -93,7 +93,6 @@ const educationInfo = {
 };
 
 
-
 // Your top 3 proficient stacks/tech experience
 const techStack = {
   viewSkillBars: false, // Set to true if you want to use the skill bars
