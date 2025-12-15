@@ -149,16 +149,17 @@ const bigProjects = {
           url: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market"
         }]
     },
-    {
-      projectName: "Pharmacy Analytics Dashboard - Cigna",
-      projectDesc:
-        "Visualized drug cost trends and supplier behavior to improve rebate strategies. Reduced monthly reporting time by 50% through reusable ETL and pipeline logic.",
-      footerLink: []
-    },
-    {
-      projectName: "Hospital Resource Optimization - Shanghai",
-      projectDesc:
-        "Clustered patient demographics to optimize triage and wait-time prioritization. Applied PCA and reward modeling to simulate a 20% drop in ER wait times.",
+    {{
+    projectName: "Healthcare Operational & Resource Optimization",
+    projectDesc:
+      "Applied advanced analytics to optimize healthcare operations, covering both patient flow and financial efficiency. Built a clustering model (PCA, Reward Modeling) to improve hospital triage/wait times (simulated 20% drop in ER wait times) and developed a Power BI dashboard to visualize drug cost trends, reducing monthly rebate reporting time by 50% via reusable ETL logic.",
+    footerLink: [
+        {
+            name: "Related DEA Project Code",
+            url: "https://github.com/manasp20/ETM540_FinalProject"
+        }
+    ]
+},
       footerLink: []
     },
     {
