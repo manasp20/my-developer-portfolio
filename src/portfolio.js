@@ -2,8 +2,8 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
-// NOTE: If you are using logos (like Accenture), you MUST ensure the image file 
-// (e.g., accentureLogo.png) is correctly placed in the ./assets/images folder.
+// NOTE: If you are using logos (e.g., Accenture or US PBM), you MUST ensure the image files 
+// are correctly placed in the ./assets/images folder.
 
 // --- NECESSARY EXPORTS ---
 const isHireable = true; 
@@ -26,7 +26,7 @@ const greeting = {
   subTitle: emoji(
     "M.S. in Data Science for Business graduate with strong skills in Python, SQL, Power BI. Five+ years of experience in Oracle ERP, data visualization, process automation, and translating business requirements into actionable insights. Looking forward to contributing as a Data Analyst or Business Analyst to apply analytical and problem-solving skills to drive data-driven decisions and business growth."
   ),
-  resumeLink: "resume (14).pdf", // Matches your uploaded file name
+  resumeLink: "resume (14).pdf", 
   displayGreeting: true 
 };
 
@@ -44,10 +44,10 @@ const skillsSection = {
   subTitle:
     "Data Analyst and Business Analyst candidate with 5+ years of experience in Oracle ERP, data visualization, and process automation.",
   skills: [
-[cite_start]    emoji("⚡ M.S. in Data Science for Business graduate with strong skills in Python, SQL, Power BI. [cite: 4]"),
-[cite_start]    emoji("⚡ Five+ years of experience in Oracle ERP, data visualization, process automation. [cite: 5]"),
-[cite_start]    emoji("⚡ Translating business requirements into actionable insights. [cite: 5]"),
-[cite_start]    emoji("⚡ Applying analytical and problem-solving skills to drive data-driven decisions and business growth. [cite: 6]")
+    emoji("⚡ M.S. in Data Science for Business graduate with strong skills in Python, SQL, Power BI."),
+    emoji("⚡ Five+ years of experience in Oracle ERP, data visualization, process automation."),
+    emoji("⚡ Translating business requirements into actionable insights."),
+    emoji("⚡ Applying analytical and problem-solving skills to drive data-driven decisions and business growth.")
   ],
   softwareSkills: [
     {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
@@ -69,16 +69,14 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Portland State University",
-      // logo: require("./assets/images/PSULogo.png"), // Add logo if available
       subHeader: "M.S. in Applied Data Science for Business, GPA: 3.7/4",
-[cite_start]      duration: "Expected Aug 2025 [cite: 11]",
+      duration: "Expected Aug 2025",
       desc: "Relevant Coursework: Data Mining, Data Warehousing, Data Visualization, Deep Learning, NLP, and Machine Learning." 
     },
     {
       schoolName: "GITAM University",
-      // logo: require("./assets/images/gitamLogo.png"), // Add logo if available
       subHeader: "B.Tech. in Computer Science",
-[cite_start]      duration: "May 2017 [cite: 11]",
+      duration: "May 2017",
       desc: "Core Computer Science curriculum."
     }
   ]
@@ -103,16 +101,29 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "PROJECT ANALYST",
+      company: "US PBM",
+      // companylogo: require("./assets/images/uspbmLogo.png"), 
+      date: "Jun 2021 – Aug 2024",
+      desc: "Spearheaded project planning, timeline management, and budgeting, ensuring alignment with Agile best practices and driving significant improvements in team productivity and delivery timelines.",
+      descBullets: [
+        "Spearheaded project planning, timeline management, and budgeting while facilitating Scrum ceremonies (planning, daily stand-ups, reviews, retrospectives) to ensure alignment with Agile best practices and sprint goals.",
+        "Maintained comprehensive project trackers and status reports, proactively managed dependencies, and executed critical program tasks, which resulted in a 40% increase in overall team productivity and a 15% improvement in project delivery timelines.",
+        "Partnered with IT teams defined data requirements, troubleshot data discrepancies, and implement ETL processes, improving data accuracy by 30% and ensuring reliable data pipelines for reporting.",
+        "Directed project, implemented an ensemble strategy for integrating model predictions, and utilized GitHub for effective collaboration."
+      ]
+    },
+    {
       role: "Senior Application Development Analyst - Oracle ERP",
       company: "Accenture Pvt Ltd",
-      // companylogo: require("./assets/images/accentureLogo.png"), // Add logo if available
-[cite_start]      date: "May 2017 – Feb 2020 [cite: 18]",
+      // companylogo: require("./assets/images/accentureLogo.png"), 
+      date: "May 2017 – Feb 2020",
       desc: "Resolved procurement issues, automated reporting, and implemented regression testing for Oracle ERP modules.",
       descBullets: [
-[cite_start]        "Reduced manual reporting effort by 30-40% via automation of procurement and invoice modules. [cite: 16]",
-[cite_start]        "Resolved SLA-bound procurement issues across 15+ clients, boosting ticket closure rate by 25%. [cite: 17]",
-[cite_start]        "Implemented entire Regression Testing using HP Unified Functional Testing under Automation Framework. [cite: 19]",
-[cite_start]        "Generated $72K in annual savings by streamlining reporting and building cost-tracking dashboards. [cite: 20]"
+        "Reduced manual reporting effort by 30-40% via automation of procurement and invoice modules.",
+        "Resolved SLA-bound procurement issues across 15+ clients, boosting ticket closure rate by 25%.",
+        "Implemented entire Regression Testing using HP Unified Functional Testing under Automation Framework.",
+        "Generated $72K in annual savings by streamlining reporting and building cost-tracking dashboards."
       ]
     }
   ]
@@ -130,27 +141,27 @@ const bigProjects = {
   subtitle: "Data Analytics, Machine Learning, and Optimization",
   projects: [
     {
-[cite_start]      projectName: "Birmingham Housing Market Model [cite: 22]",
+      projectName: "Birmingham Housing Market Model",
       projectDesc:
-        "Built a logistic regression model to identify rent-burdened applicants at high default risk. Integrated data from Census, ACRE, Eviction Lab, and OneApp internal sales logs. [cite_start]Performed various visualization using custom visuals. [cite: 23, 25, 27]",
+        "Built a logistic regression model to identify rent-burdened applicants at high default risk. Integrated data from Census, ACRE, Eviction Lab, and OneApp internal sales logs. Performed various visualization using custom visuals.",
       footerLink: []
     },
     {
-[cite_start]      projectName: "Pharmacy Analytics Dashboard - Cigna [cite: 28]",
+      projectName: "Pharmacy Analytics Dashboard - Cigna",
       projectDesc:
-        "Visualized drug cost trends and supplier behavior to improve rebate strategies. [cite_start]Reduced monthly reporting time by 50% through reusable ETL and pipeline logic. [cite: 29, 30]",
+        "Visualized drug cost trends and supplier behavior to improve rebate strategies. Reduced monthly reporting time by 50% through reusable ETL and pipeline logic.",
       footerLink: []
     },
     {
-[cite_start]      projectName: "Hospital Resource Optimization - Shanghai [cite: 30]",
+      projectName: "Hospital Resource Optimization - Shanghai",
       projectDesc:
-        "Clustered patient demographics to optimize triage and wait-time prioritization. [cite_start]Applied PCA and reward modeling to simulate a 20% drop in ER wait times. [cite: 31, 32]",
+        "Clustered patient demographics to optimize triage and wait-time prioritization. Applied PCA and reward modeling to simulate a 20% drop in ER wait times.",
       footerLink: []
     },
     {
-[cite_start]      projectName: "Mall Customer Segmentation Analysis [cite: 32]",
+      projectName: "Mall Customer Segmentation Analysis",
       projectDesc:
-        "Performed customer segmentation to guide marketing strategy using clustering. [cite_start]Identified 3 high-potential customer segments and visualized findings to deliver actionable insights. [cite: 33, 34, 35]",
+        "Performed customer segmentation to guide marketing strategy using clustering. Identified 3 high-potential customer segments and visualized findings to deliver actionable insights.",
       footerLink: []
     }
   ],
@@ -164,28 +175,28 @@ const achievementSection = {
     "Recognitions and milestones that highlight my career journey.",
   achievementsCards: [
     {
-[cite_start]      title: "Zenith Awardee-Best Performer 2018 [cite: 37]",
+      title: "Zenith Awardee-Best Performer 2018",
       description: ""
     },
     {
-[cite_start]      title: "Pinnacle Award FY20 2020 [cite: 38]",
+      title: "Pinnacle Award FY20 2020",
       description: ""
     },
     {
-[cite_start]      title: "Best Orator Global FinTech Innovation Pitch 2019 [cite: 39]",
+      title: "Best Orator Global FinTech Innovation Pitch 2019",
       description: ""
     },
     {
-      title: "The Rising Star award for showcasing leadership and team management activities. [cite_start]2017 [cite: 40]",
+      title: "The Rising Star award for showcasing leadership and team management activities. 2017",
       description: ""
     },
     {
-[cite_start]      title: "Oracle Procurement Cloud (1Z0-963) Certified [cite: 12]",
-[cite_start]      description: "Also holds Graduate Certificate in Business Intelligence and Analytics. [cite: 13]"
+      title: "Oracle Procurement Cloud (1Z0-963) Certified",
+      description: "Also holds Graduate Certificate in Business Intelligence and Analytics."
     },
     {
-[cite_start]      title: "AWS Certified Cloud Practitioner [cite: 13]",
-[cite_start]      description: "Also holds Microsoft Azure Fundamentals certification. [cite: 13]"
+      title: "AWS Certified Cloud Practitioner",
+      description: "Also holds Microsoft Azure Fundamentals certification."
     }
   ],
   display: true
