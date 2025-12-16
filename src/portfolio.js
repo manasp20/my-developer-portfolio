@@ -1,5 +1,7 @@
 /* Change this file to get your personal Portfolio */
 
+// To change portfolio colors globally go to the  _globalColor.scss file
+
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 // NOTE: If you are using logos (e.g., Accenture or US PBM), you MUST ensure the image files 
@@ -139,9 +141,11 @@ const openSource = {
 // Some big projects you have worked on
 const bigProjects = {
   title: "Projects",
-  subtitle: "Data Analytics, Machine Learning, and Optimization",
+  subtitle: "AI, Data Analytics, and Real-World Problem Solving",
   projects: [
     {
+      // Using a placeholder path; ensure image file exists locally
+      image: require("./assets/images/birminghamHousing.png"), 
       projectName: "Birmingham Housing Market Model",
       projectDesc:
         "Built a logistic regression model to identify rent-burdened applicants at high default risk. Integrated data from Census, ACRE, Eviction Lab, and OneApp internal sales logs. Performed various visualization using custom visuals.",
@@ -151,29 +155,33 @@ const bigProjects = {
         }]
     },
     {
-    projectName: "Healthcare Operational & Resource Optimization",
-    projectDesc:
-      "Applied advanced analytics to optimize healthcare operations, covering both patient flow and financial efficiency. Built a clustering model (PCA, Reward Modeling) to improve hospital triage/wait times (simulated 20% drop in ER wait times) and developed a Power BI dashboard to visualize drug cost trends, reducing monthly rebate reporting time by 50% via reusable ETL logic.",
-    footerLink: [
+      // Using a placeholder path; ensure image file exists locally
+      image: require("./assets/images/healthcareOptimization.png"), 
+      projectName: "Healthcare Operational & Resource Optimization",
+      projectDesc:
+        "Applied advanced analytics to optimize healthcare operations, covering both patient flow and financial efficiency. Built a clustering model (PCA, Reward Modeling) to improve hospital triage/wait times (simulated 20% drop in ER wait times) and developed a Power BI dashboard to visualize drug cost trends, reducing monthly rebate reporting time by 50% via reusable ETL logic.",
+      footerLink: [
         {
             name: "View Project",
             url: "https://github.com/manasp20/ETM540_FinalProject"
         }
-    ]
-},
-
-{
-  projectName: "Mall Customer Segmentation Analysis",
-  projectDesc:
-    "Performed customer segmentation to guide marketing strategy using clustering. Identified  high-potential customer segments and visualized findings to deliver actionable insights.",
-  footerLink: [
+      ]
+    },
     {
-      text: "View Code",
-      href: "https://github.com/manasp20/mall_customer_segmentation"
+      // Using a placeholder path; ensure image file exists locally
+      image: require("./assets/images/mallSegmentation.png"), 
+      projectName: "Mall Customer Segmentation Analysis",
+      projectDesc:
+        "Performed customer segmentation to guide marketing strategy using clustering. Identified high-potential customer segments and visualized findings to deliver actionable insights.",
+      footerLink: [
+        {
+          name: "View Code", 
+          url: "https://github.com/manasp20/mall_customer_segmentation" 
+        }
+      ]
     }
-  ]
-}
-]
+  ],
+  display: true
 };
 
 // Achievement Section
@@ -198,11 +206,11 @@ const achievementSection = {
       title: "The Rising Star award for showcasing leadership and team management activities. 2017",
       description: ""
     },
-    {
+    {
       title: "Oracle Procurement Cloud (1Z0-963) Certified",
       description: "Also holds Graduate Certificate in Business Intelligence and Analytics."
     },
-    {
+    {
       title: "AWS Certified Cloud Practitioner",
       description: "Also holds Microsoft Azure Fundamentals certification."
     }
