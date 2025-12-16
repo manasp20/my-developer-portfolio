@@ -135,6 +135,7 @@ const openSource = {
   display: true 
 };
 
+
 // Some big projects you have worked on
 const bigProjects = {
   title: "Projects",
@@ -145,9 +146,9 @@ const bigProjects = {
       projectDesc:
         "Built a logistic regression model to identify rent-burdened applicants at high default risk. Integrated data from Census, ACRE, Eviction Lab, and OneApp internal sales logs. Performed various visualization using custom visuals.",
       footerLink: [{
-          name: "View Project",
-          url: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market"
-        }]
+          name: "View Project",
+          url: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market"
+        }]
     },
     {
     projectName: "Healthcare Operational & Resource Optimization",
@@ -162,18 +163,19 @@ const bigProjects = {
 },
 
 {
-  projectName: "Mall Customer Segmentation Analysis",
-  projectDesc:
-    "Performed customer segmentation to guide marketing strategy using clustering. Identified  high-potential customer segments and visualized findings to deliver actionable insights.",
-  footerLink: [
-    {
-      text: "View Code",
-      href: "https://github.com/manasp20/mall_customer_segmentation" // 
-    }
-  ]
+  projectName: "Mall Customer Segmentation Analysis",
+  projectDesc:
+    "Performed customer segmentation to guide marketing strategy using clustering. Identified  high-potential customer segments and visualized findings to deliver actionable insights.",
+  footerLink: [
+    {
+      text: "View Code",
+      href: "https://github.com/manasp20/mall_customer_segmentation"
+    }
+  ]
 }
 ]
 };
+
 // Achievement Section
 const achievementSection = {
   title: emoji("Leadership & Recognition🏆 "),
