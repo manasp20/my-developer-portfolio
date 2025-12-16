@@ -155,19 +155,24 @@ const bigProjects = {
       "Applied advanced analytics to optimize healthcare operations, covering both patient flow and financial efficiency. Built a clustering model (PCA, Reward Modeling) to improve hospital triage/wait times (simulated 20% drop in ER wait times) and developed a Power BI dashboard to visualize drug cost trends, reducing monthly rebate reporting time by 50% via reusable ETL logic.",
     footerLink: [
         {
-            name: "Related DEA Project Code",
+            name: "View Project",
             url: "https://github.com/manasp20/ETM540_FinalProject"
         }
     ]
 },
-    {
-      projectName: "Mall Customer Segmentation Analysis",
-      projectDesc:
-        "Performed customer segmentation to guide marketing strategy using clustering. Identified 3 high-potential customer segments and visualized findings to deliver actionable insights.",
-      footerLink: []
-    }
-  ],
-  display: true
+
+{
+  projectName: "Mall Customer Segmentation Analysis",
+  projectDesc:
+    "Performed customer segmentation to guide marketing strategy using clustering. Identified 3 high-potential customer segments and visualized findings to deliver actionable insights.",
+  footerLink: [
+    {
+      text: "View Code",
+      href: "https://github.com/manasp20/mall_customer_segmentation" // 
+    }
+  ]
+},
+display: true
 };
 
 // Achievement Section
