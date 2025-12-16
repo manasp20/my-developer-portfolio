@@ -164,17 +164,16 @@ const bigProjects = {
 {
   projectName: "Mall Customer Segmentation Analysis",
   projectDesc:
-    "Performed customer segmentation to guide marketing strategy using clustering. Identified 3 high-potential customer segments and visualized findings to deliver actionable insights.",
+    "Performed customer segmentation to guide marketing strategy using clustering. Identified  high-potential customer segments and visualized findings to deliver actionable insights.",
   footerLink: [
     {
       text: "View Code",
       href: "https://github.com/manasp20/mall_customer_segmentation" // 
     }
   ]
-},
-display: true
+}
+]
 };
-
 // Achievement Section
 const achievementSection = {
   title: emoji("Leadership & Recognition🏆 "),
