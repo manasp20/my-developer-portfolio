@@ -1,7 +1,5 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 // NOTE: If you are using logos (e.g., Accenture or US PBM), you MUST ensure the image files 
@@ -24,7 +22,7 @@ const illustration = {
 
 const greeting = {
   username: "Manaswini Pisipati",
-  title: "Hi All, I'm Manaswini Pisipati",
+  title: "Hi All, I'm Manaswini",
   subTitle: emoji(
     "M.S. in Data Science for Business graduate with strong skills in Python, SQL, Power BI. Five+ years of experience in Oracle ERP, data visualization, process automation, and translating business requirements into actionable insights. Looking forward to contributing as a Data Analyst or Business Analyst to apply analytical and problem-solving skills to drive data-driven decisions and business growth."
   ),
@@ -44,10 +42,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-    "Data Analyst and Business Analyst candidate with 5+ years of experience in Oracle ERP, data visualization, and process automation.",
+    "Data Analyst and Business Analyst candidate with years of experience in Oracle ERP, data visualization, and process automation.",
   skills: [
     emoji("⚡ M.S. in Data Science for Business graduate with strong skills in Python, SQL, Power BI."),
-    emoji("⚡ Five+ years of experience in Oracle ERP, data visualization, process automation."),
+    emoji("⚡ More than five years of experience in Oracle ERP, data visualization, process automation."),
     emoji("⚡ Translating business requirements into actionable insights."),
     emoji("⚡ Applying analytical and problem-solving skills to drive data-driven decisions and business growth.")
   ],
@@ -72,14 +70,14 @@ const educationInfo = {
     {
       schoolName: "Portland State University",
       subHeader: "M.S. in Applied Data Science for Business, GPA: 3.7/4",
-      duration: "Expected Aug 2025",
+      duration: "Jun 2025",
       desc: "Relevant Coursework: Data Mining, Data Warehousing, Data Visualization, Deep Learning, NLP, and Machine Learning." 
     },
     {
       schoolName: "GITAM University",
       subHeader: "B.Tech. in Computer Science",
-      duration: "May 2017",
-      desc: "Core Computer Science curriculum."
+      duration: "August 2013 – May 2017",
+      desc: "Coursework: Data Structures and Algorithms, Operating Systems, Computer Networks, Database Management Systems, Web Technologies, and Software Engineering."
     }
   ]
 };
@@ -137,48 +135,42 @@ const openSource = {
   display: true 
 };
 
-
 // Some big projects you have worked on
 const bigProjects = {
   title: "Projects",
-  subtitle: "AI, Data Analytics, and Real-World Problem Solving",
+  subtitle: "Data Analytics, Machine Learning, and Optimization",
   projects: [
     {
-      // Using a placeholder path; ensure image file exists locally
-      image: require("./assets/images/birminghamHousing.png"), 
       projectName: "Birmingham Housing Market Model",
       projectDesc:
         "Built a logistic regression model to identify rent-burdened applicants at high default risk. Integrated data from Census, ACRE, Eviction Lab, and OneApp internal sales logs. Performed various visualization using custom visuals.",
       footerLink: [{
-          name: "View Project",
-          url: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market"
-        }]
+          name: "View Project",
+          url: "https://github.com/manasp20/Capstone_Proj_B-ham--AL-housing-market"
+        }]
     },
     {
-      // Using a placeholder path; ensure image file exists locally
-      image: require("./assets/images/healthcareOptimization.png"), 
-      projectName: "Healthcare Operational & Resource Optimization",
-      projectDesc:
-        "Applied advanced analytics to optimize healthcare operations, covering both patient flow and financial efficiency. Built a clustering model (PCA, Reward Modeling) to improve hospital triage/wait times (simulated 20% drop in ER wait times) and developed a Power BI dashboard to visualize drug cost trends, reducing monthly rebate reporting time by 50% via reusable ETL logic.",
-      footerLink: [
+    projectName: "Healthcare Operational & Resource Optimization",
+    projectDesc:
+      "Applied advanced analytics to optimize healthcare operations, covering both patient flow and financial efficiency. Built a clustering model (PCA, Reward Modeling) to improve hospital triage/wait times (simulated 20% drop in ER wait times) and developed a Power BI dashboard to visualize drug cost trends, reducing monthly rebate reporting time by 50% via reusable ETL logic.",
+    footerLink: [
         {
-            name: "View Project",
+            name: "See Project",
             url: "https://github.com/manasp20/ETM540_FinalProject"
         }
-      ]
-    },
+    ]
+},
     {
-      // Using a placeholder path; ensure image file exists locally
-      image: require("./assets/images/mallSegmentation.png"), 
       projectName: "Mall Customer Segmentation Analysis",
       projectDesc:
-        "Performed customer segmentation to guide marketing strategy using clustering. Identified high-potential customer segments and visualized findings to deliver actionable insights.",
+        "Performed customer segmentation to guide marketing strategy using clustering. Identified 3 high-potential customer segments and visualized findings to deliver actionable insights.",
       footerLink: [
-        {
-          name: "View Code", 
-          url: "https://github.com/manasp20/mall_customer_segmentation" 
+{
+            name: " Project Code",
+            url: "https://github.com/manasp20/mall_customer_segmentation"
         }
-      ]
+
+]
     }
   ],
   display: true
@@ -206,11 +198,11 @@ const achievementSection = {
       title: "The Rising Star award for showcasing leadership and team management activities. 2017",
       description: ""
     },
-    {
+    {
       title: "Oracle Procurement Cloud (1Z0-963) Certified",
       description: "Also holds Graduate Certificate in Business Intelligence and Analytics."
     },
-    {
+    {
       title: "AWS Certified Cloud Practitioner",
       description: "Also holds Microsoft Azure Fundamentals certification."
     }
